@@ -66,8 +66,8 @@ Inverting amplifier:
 
 A = -Rf/R1
 Take  A = 10
-Rf =15 R1
-Choose R1 = 1.5kΩ, Rf=10kΩ
+Rf =10 R1
+Choose R1 = 1.5kΩ, Rf=15kΩ
 
 PROCEDURE:
 Inverting amplifier:
@@ -83,12 +83,8 @@ Inverting amplifier:
 
 ## TABULATION
 
-| S.No | Vin (V) | Time (ms) | Vo = Vin[-(Rf / R1)] (V) | Theoretical | Practical |
-|------|----------|-----------|------------------------------|--------------|------------|
-| 1 | 1.4V | 0.7 | 14 | 14  | -13.9 |
-| 2 | 1.16V | 0.7 | 11.6 | 11.6 | -11.2 |
-| 3 | 2.3V | 0.7 | 23 | 23 | -22.8 |			
- 
+<img width="720" height="1280" alt="image" src="https://github.com/user-attachments/assets/024f651e-30a8-46d0-afdb-173148a3941b" />
+
 
 
 ---
@@ -135,14 +131,13 @@ PROCEDURE:
 
 ## TABULATION
 
-| S.No | Vin (V) | Time (ms) | Vo = Vin[1 + (Rf / R1)] (V) | Theoretical | Practical |
-|------|----------|-----------|------------------------------|--------------|------------|
-| 1 | 920mV | 0.7 | | | |
-| 2 | | | | | |
-| 3 | | | | | |
+<img width="720" height="1280" alt="image" src="https://github.com/user-attachments/assets/7fee5ad1-f7ff-44bb-8414-aa3accf5157d" />
 
 ---
 ## OUT PUT WAVEFORM AND DISCUSSION 
+
+<img width="720" height="1280" alt="image" src="https://github.com/user-attachments/assets/78b5ef15-752b-42d7-8764-12d2e2eae746" />
+<img width="899" height="1599" alt="image" src="https://github.com/user-attachments/assets/972f45a7-2c34-4030-9d7d-6a1b1fd45bc9" />
 
 
 ---
@@ -155,7 +150,8 @@ If the two input signals are identical, the output is ideally **zero**.
 
 A = Vo/{V2 - V1} = -Rf/R1
 ## CIRCUIT DIAGRAM
-<img width="706" height="522" alt="image" src="https://github.com/user-attachments/assets/917f2544-3735-4a23-a9b7-1264966d0d20" />
+<img width="720" height="1280" alt="image" src="https://github.com/user-attachments/assets/5fe93841-ee44-4ef6-ae86-24103f1ae9fb" />
+
 
 ## MODEL GRAPH
 <img width="678" height="334" alt="image" src="https://github.com/user-attachments/assets/6aa1b9dd-b112-4be1-a37a-d5ee19607b1d" />
@@ -172,7 +168,7 @@ AV = Vo/{V1 - V2} = -Rf/R1
 
 Take  A = 10 
 ⇒  Rf = 10R1   
-Choose  R1 = 1kOhm, Rf = 10kOhm
+Choose  R1 = 1.5kOhm, Rf = 15kOhm
 
 ---
 
