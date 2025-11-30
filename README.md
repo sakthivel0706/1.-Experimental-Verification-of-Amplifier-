@@ -143,7 +143,7 @@ PROCEDURE:
 
 ---
 ## DIFFERENTIAL AMPLIFIER 
-## **DATE:**23-8-2025
+## **DATE:** 23-8-2025
 
 A circuit that amplifies the **difference** between two input signals is called a **Differential Amplifier**.  
 It is useful in instrumentation applications.  
@@ -199,7 +199,7 @@ Choose  R1 = 1.5kOhm, Rf = 15kOhm
 
 ---
 ## INSTRUMENTATION AMPLIFIER 
-## **DATE:**28-10-2025
+## **DATE:** 28-10-2025
 
 ## THEORY:
 
