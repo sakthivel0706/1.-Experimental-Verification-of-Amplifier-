@@ -1,5 +1,5 @@
 #**EX.NO:** 1  # EXPERIMENTAL VERIFICATION OF AMPLIFIER INVERTING, NON INVERTING , DIFFERENTIAL AMPLIFIER AND INSTRUMENTATION AMPLIFIERS
-**DATE:**  
+**DATE:**  9-8-2025
 ---
 
 ## AIM
@@ -47,10 +47,10 @@ The negative sign in gain indicates a **phase shift of 180°**.
 
 Acl = -RF/R1
 
-PIN DIAGRAM
+## PIN DIAGRAM
 <img width="624" height="269" alt="image" src="https://github.com/user-attachments/assets/635c9837-d5f5-4d6f-acc9-8a47a4368230" />
 
-CIRCUIT DIAGRAM: INVERTING AMPLIFIER:
+## CIRCUIT DIAGRAM: INVERTING AMPLIFIER:
 <img width="806" height="1280" alt="image" src="https://github.com/user-attachments/assets/52bf3a80-5ee9-46cb-9de2-f2a527841af6" />
 
 
@@ -60,7 +60,7 @@ MODEL GRAPH
 
 
 
-DESIGN:
+## DESIGN:
 
 Inverting amplifier:
 
@@ -69,7 +69,7 @@ Take  A = 10
 Rf =10 R1
 Choose R1 = 1.5kΩ, Rf=15kΩ
 
-PROCEDURE:
+## PROCEDURE:
 Inverting amplifier:
 
 1.	Select R1 as a constant value and choose a value of Rf.
@@ -94,7 +94,7 @@ Inverting amplifier:
 
 
 ---
-### **Non-Inverting Amplifier**
+### **Non-Inverting Amplifier** 19-8-2025
 
 If the signal is applied to the non-inverting input terminal without inversion, it is called a **non-inverting amplifier**.  
 Here, the output is fed back to the inverting terminal, and **no phase shift** occurs.
@@ -140,7 +140,7 @@ PROCEDURE:
 
 
 ---
-## DIFFERENTIAL AMPLIFIER
+## DIFFERENTIAL AMPLIFIER 23-8-2025
 
 A circuit that amplifies the **difference** between two input signals is called a **Differential Amplifier**.  
 It is useful in instrumentation applications.  
@@ -195,9 +195,9 @@ Choose  R1 = 1.5kOhm, Rf = 15kOhm
 <img width="720" height="1280" alt="image" src="https://github.com/user-attachments/assets/3158e0a1-6ea3-4810-a73d-466ce3b281f5" />
 
 ---
-## INSTRUMENTATION AMPLIFIER
+## INSTRUMENTATION AMPLIFIER 28-10-2025
 
-THEORY:
+## THEORY:
 
 An instrumentation amplifier is the intermediate stage of a instrumentation system. The signal source of the instrumentation amplifier is the output of the transducer. Many transducers output do not have the ability or sufficient strength to drive the next following stages. Therefore, instrumentation amplifiers are used to amplify the low-level output signal of the transducer so that it can drive the following stages such as indicator or displays.
 The major requirements of a instrumentation amplifier are precise, low-level signal amplification where low-noise, low thermal and time drifts, high input resistance & accurate closed-loop gain, low power consumption, high CMRR & high slew rate for superior performance.
@@ -209,7 +209,7 @@ Vo = RF/R1[1+ 2R’/R][V2-V1]
 
 <img width="1080" height="1265" alt="image" src="https://github.com/user-attachments/assets/449b189d-8675-4c6c-9a73-25fdbe2f2277" />
 
-PROCEDURE:
+## PROCEDURE:
 
 1.	Select the entire resistor with the same value. Let R be the gain varying resistor with different values of resistance for simplicity let R be a constant value.
 2.	Connect the circuit as shown in the circuit diagram.
